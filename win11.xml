@@ -49,7 +49,7 @@
 </features>
 <cpu mode='host-passthrough' check='none'>
 <topology sockets='1' cores='3' threads='2'/>
-<feature policy='disable' name='smep'/>
+<feature policy='require' name='smep'/>
 </cpu>
 <clock offset='localtime'>
 <timer name='rtc' tickpolicy='catchup'/>
